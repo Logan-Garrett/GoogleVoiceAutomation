@@ -19,17 +19,24 @@ IWebDriver driver = new ChromeDriver(service, options);
 driver.Navigate().GoToUrl("https://voice.google.com/u/3/messages");
 Thread.Sleep(2000);
 
-driver.FindElement(By.XPath("//*[@class='signUpLink']")).Click();
-Thread.Sleep(2000);
+// Not Needed as of now
+//driver.FindElement(By.XPath("//*[@class='signUpLink']")).Click();
+//Thread.Sleep(2000);
+//driver.FindElement(By.XPath("//*[@aria-label='Email or phone']")).SendKeys("");
+//driver.FindElement(By.XPath("//*[@class='VfPpkd-RLmnJb']")).Click();
 
-driver.FindElement(By.XPath("//*[@aria-label='Email or phone']")).SendKeys("gaggiftaffiliates@gmail.com");
-driver.FindElement(By.XPath("//*[@class='VfPpkd-RLmnJb']")).Click();
-var ContactList = new List<string>();
-/*
-ContactList = (List<string>)driver.FindElement(By.XPath("//div[@class='md-ink-ripple layout-align-start-center layout-row gmat-body-2 gvThreadItem-root']"));
+//md-ink-ripple layout-align-start-center layout-row gmat-body-2 gvThreadItem-root
+
+var ContactList = driver.FindElements(By.XPath("//div[@class='md-ink-ripple layout-align-start-center layout-row gmat-body-2 gvThreadItem-root']"));
+
 for (int i = 0; i < ContactList.Count; i++)
 {
     Console.WriteLine(ContactList[i]);
+    ContactList[i].Click();
+    Thread.Sleep(250);
+    driver.FindElement(By.XPath("//*[@aria-label='Type a message']")).SendKeys("Testing Testing 123");
+    driver.FindElement(By.XPath("//*[@id='ib2']")).Click();
+    Thread.Sleep(250);
 }
-*/
+
 Console.ReadLine();

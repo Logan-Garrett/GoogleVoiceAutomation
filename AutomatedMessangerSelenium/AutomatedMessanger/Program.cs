@@ -1,19 +1,21 @@
-﻿using OpenQA.Selenium.Firefox;
+﻿using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium;
 using System;
 using System.Threading;
 
 Console.WriteLine("Hello, World!");
 
-var service = @"C:\Program Files\Mozilla Firefox";
+var service = @"E:\git\localhost-data";
 
-var options = new FirefoxOptions();
+var options = new ChromeOptions();
 options.AddArguments("--no-sandbox");
 options.AddArguments("--disable-dev-shm-usage");
+options.AddArguments("--remote-debugging-port=9222");
+options.DebuggerAddress = "127.0.0.1:9222";
 
 //options.AddArgument("headless");
-
-IWebDriver driver = new FirefoxDriver(service, options);
+//chrome.exe --remote-debugging-port=9222 --user-data-dir="E:\git\localhost-data"
+IWebDriver driver = new ChromeDriver(service, options);
 driver.Navigate().GoToUrl("https://voice.google.com/u/3/messages");
 Thread.Sleep(2000);
 

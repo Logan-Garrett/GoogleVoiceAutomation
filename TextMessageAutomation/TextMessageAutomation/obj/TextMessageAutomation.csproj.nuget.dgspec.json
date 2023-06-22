@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Logan\\OneDrive\\Desktop\\git\\GoogleVoiceAutomation\\AutomatedMessangerSelenium\\AutomatedMessanger\\AutomatedMessanger.csproj": {}
+    "C:\\Users\\Logan\\OneDrive\\Desktop\\git\\GoogleVoiceAutomation\\TextMessageAutomation\\TextMessageAutomation\\TextMessageAutomation.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Logan\\OneDrive\\Desktop\\git\\GoogleVoiceAutomation\\AutomatedMessangerSelenium\\AutomatedMessanger\\AutomatedMessanger.csproj": {
+    "C:\\Users\\Logan\\OneDrive\\Desktop\\git\\GoogleVoiceAutomation\\TextMessageAutomation\\TextMessageAutomation\\TextMessageAutomation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Logan\\OneDrive\\Desktop\\git\\GoogleVoiceAutomation\\AutomatedMessangerSelenium\\AutomatedMessanger\\AutomatedMessanger.csproj",
-        "projectName": "AutomatedMessanger",
-        "projectPath": "C:\\Users\\Logan\\OneDrive\\Desktop\\git\\GoogleVoiceAutomation\\AutomatedMessangerSelenium\\AutomatedMessanger\\AutomatedMessanger.csproj",
+        "projectUniqueName": "C:\\Users\\Logan\\OneDrive\\Desktop\\git\\GoogleVoiceAutomation\\TextMessageAutomation\\TextMessageAutomation\\TextMessageAutomation.csproj",
+        "projectName": "TextMessageAutomation",
+        "projectPath": "C:\\Users\\Logan\\OneDrive\\Desktop\\git\\GoogleVoiceAutomation\\TextMessageAutomation\\TextMessageAutomation\\TextMessageAutomation.csproj",
         "packagesPath": "C:\\Users\\Logan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Logan\\OneDrive\\Desktop\\git\\GoogleVoiceAutomation\\AutomatedMessangerSelenium\\AutomatedMessanger\\obj\\",
+        "outputPath": "C:\\Users\\Logan\\OneDrive\\Desktop\\git\\GoogleVoiceAutomation\\TextMessageAutomation\\TextMessageAutomation\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Logan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,20 +39,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "Selenium.Chrome.WebDriver": {
-              "target": "Package",
-              "version": "[85.0.0, )"
-            },
-            "Selenium.WebDriver": {
-              "target": "Package",
-              "version": "[4.10.0, )"
-            },
-            "Selenium.WebDriver.ChromeDriver": {
-              "target": "Package",
-              "version": "[114.0.5735.9000, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

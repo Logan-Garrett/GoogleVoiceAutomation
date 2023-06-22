@@ -143,11 +143,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Logan\\source\\repos\\AutomatedMessanger\\AutomatedMessanger\\AutomatedMessanger.csproj",
+      "projectUniqueName": "C:\\Users\\Logan\\OneDrive\\Desktop\\git\\GoogleVoiceAutomation\\AutomatedMessangerSelenium\\AutomatedMessanger\\AutomatedMessanger.csproj",
       "projectName": "AutomatedMessanger",
-      "projectPath": "C:\\Users\\Logan\\source\\repos\\AutomatedMessanger\\AutomatedMessanger\\AutomatedMessanger.csproj",
+      "projectPath": "C:\\Users\\Logan\\OneDrive\\Desktop\\git\\GoogleVoiceAutomation\\AutomatedMessangerSelenium\\AutomatedMessanger\\AutomatedMessanger.csproj",
       "packagesPath": "C:\\Users\\Logan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Logan\\source\\repos\\AutomatedMessanger\\AutomatedMessanger\\obj\\",
+      "outputPath": "C:\\Users\\Logan\\OneDrive\\Desktop\\git\\GoogleVoiceAutomation\\AutomatedMessangerSelenium\\AutomatedMessanger\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Logan\\AppData\\Roaming\\NuGet\\NuGet.Config",

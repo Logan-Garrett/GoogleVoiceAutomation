@@ -29,4 +29,5 @@ for (int i = 0; i < ContactList.Count; i++)
     Thread.Sleep(250);
 }
 
-Console.ReadLine();
+Thread.Sleep(250);
+driver.Quit();
